@@ -6,7 +6,7 @@ import { useDispatch } from "react-redux";
 import { useSnackbar } from "notistack";
 import { useLoginUserMutation } from "../Slices/Users/UserApis";
 import { setUserCredentials } from "../Slices/Users/UserSlice";
-import Header from "../Global/HEader";
+import Header from "../Global/Header";
 import HomeFooter from "../Global/Footer";
 import { useSearchParams } from "react-router-dom";
 

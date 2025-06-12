@@ -1,5 +1,5 @@
 import HomeFooter from "../Global/Footer";
-import Header from "../Global/HEader";
+import Header from "../Global/Header";
 
 const Home = () => {
   return (

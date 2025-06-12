@@ -13,7 +13,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useSnackbar } from "notistack";
 import { useRegisterUserMutation } from "../Slices/Users/UserApis";
 import OtpModal from "../Modal/OtpModal";
-import Header from "../Global/HEader";
+import Header from "../Global/Header";
 import HomeFooter from "../Global/Footer";
 
 const { Option } = Select;

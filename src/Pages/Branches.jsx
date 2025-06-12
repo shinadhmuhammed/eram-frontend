@@ -11,7 +11,7 @@ import {
 } from '@ant-design/icons';
 import { useGetBranchesQuery } from "../Slices/Users/UserApis";
 import HomeFooter from "../Global/Footer";
-import Header from "../Global/HEader";
+import Header from "../Global/Header"
 import { useNavigate } from 'react-router-dom';
 
 const { Title, Text, Paragraph } = Typography;
