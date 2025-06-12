@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const baseUrl = "http://localhost:5000/api/super-admin";
+const baseUrl = "https://eram-0l35.onrender.com/api/super-admin";
 
 export const superAdminApi = createApi({
   reducerPath: "superAdminApi",
