@@ -38,7 +38,7 @@ import {
 import {
   useGetBranchesQuery,
   useDeleteBranchMutation,
-} from "../../Slices/SuperAdmin/SuperAdminAPIs.js";
+} from "../../Slices/SuperAdmin/SuperAdminApis.js";
 import SkeletonLoader from "../../Global/SkeletonLoader";
 
 const { Title, Text, Paragraph } = Typography;

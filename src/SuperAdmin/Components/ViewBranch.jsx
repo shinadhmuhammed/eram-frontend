@@ -31,7 +31,7 @@ import {
   InfoCircleOutlined,
   MenuOutlined,
 } from "@ant-design/icons";
-import { useGetBranchByIdQuery } from "../../Slices/SuperAdmin/SuperAdminAPIs.js";
+import { useGetBranchByIdQuery } from "../../Slices/SuperAdmin/SuperAdminApis.js";
 import SkeletonLoader from "../../Global/SkeletonLoader";
 
 const { Title, Text, Paragraph } = Typography;

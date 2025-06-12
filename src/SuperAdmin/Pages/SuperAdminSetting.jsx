@@ -24,7 +24,7 @@ import {
 import {
   useRequestUpdateProfileMutation,
   useVerifyUpdateProfileMutation,
-} from "../../Slices/SuperAdmin/SuperAdminAPIs.js"; // Adjust import path
+} from "../../Slices/SuperAdmin/SuperAdminApis.js"; // Adjust import path
 import SuperAdminOtpModal from "../Modal/SuperAdminOtpModal";
 
 const { Title, Text } = Typography;
