@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import userAuthReducer from "./Slices/Users/UserSlice.jsx";
-import superAdminAuthReducer from "./Slices/SuperAdmin/SuperAdminSlice.jsx";
-import { userApi } from "./Slices/Users/UserApis.jsx";
-import { superAdminApi } from "./Slices/SuperAdmin/SuperAdminAPIs.jsx";
-import { adminApi } from "./Slices/Admin/AdminApis.jsx";
+import userAuthReducer from "./Slices/Users/UserSlice.js";
+import superAdminAuthReducer from "./Slices/SuperAdmin/SuperAdminSlice.js";
+import { userApi } from "./Slices/Users/UserApis.js";
+import { superAdminApi } from "./Slices/SuperAdmin/SuperAdminAPIs.js";
+import { adminApi } from "./Slices/Admin/AdminApis.js";
 
 const store = configureStore({
   reducer: {
