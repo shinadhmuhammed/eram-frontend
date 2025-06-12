@@ -9,7 +9,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useSnackbar } from "notistack"; 
-import { useLoginSuperAdminMutation } from "../../Slices/SuperAdmin/SuperAdminAPIs";
+import { useLoginSuperAdminMutation } from "../../Slices/SuperAdmin/SuperAdminAPIs.js";
 import { setSuperAdminCredentials } from "../../Slices/SuperAdmin/SuperAdminSlice";
 import SuperAdminOtpModal from "../Modal/SuperAdminOtpModal";
 

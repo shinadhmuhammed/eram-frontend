@@ -3,7 +3,7 @@ import { Modal, Input, Button, Typography, Space, message } from "antd";
 import {
   useVerifyAdminLoginOtpMutation,
   useVerifyUpdateProfileMutation,
-} from "../../Slices/SuperAdmin/SuperAdminAPIs";
+} from "../../Slices/SuperAdmin/SuperAdminAPIs.js";
 import { useSnackbar } from "notistack"; 
 
 import { CloseOutlined, SafetyCertificateOutlined } from "@ant-design/icons";

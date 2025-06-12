@@ -29,7 +29,7 @@ import {
   CustomerServiceOutlined,
   ToolOutlined,
 } from "@ant-design/icons";
-import { useCreateBranchMutation } from "../../Slices/SuperAdmin/SuperAdminAPIs";
+import { useCreateBranchMutation } from "../../Slices/SuperAdmin/SuperAdminAPIs.js";
 import { useNavigate } from "react-router-dom";
 
 const { Title, Text } = Typography;

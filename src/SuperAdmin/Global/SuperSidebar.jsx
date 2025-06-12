@@ -11,7 +11,7 @@ import { useDispatch } from "react-redux";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useSnackbar } from "notistack"; // Add this import
 import { SuperAdminlogout } from "../../Slices/SuperAdmin/SuperAdminSlice";
-import { useLogoutSuperAdminMutation } from "../../Slices/SuperAdmin/SuperAdminAPIs";
+import { useLogoutSuperAdminMutation } from "../../Slices/SuperAdmin/SuperAdminAPIs.js";
 
 const { Sider } = Layout;
 

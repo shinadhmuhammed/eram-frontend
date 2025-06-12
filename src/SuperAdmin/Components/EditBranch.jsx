@@ -34,7 +34,7 @@ import {
 import { 
   useGetBranchesQuery,
   useUpdateBranchMutation 
-} from "../../Slices/SuperAdmin/SuperAdminAPIs";
+} from "../../Slices/SuperAdmin/SuperAdminAPIs.js";
 import { useNavigate, useParams } from "react-router-dom";
 
 const { Title, Text } = Typography;

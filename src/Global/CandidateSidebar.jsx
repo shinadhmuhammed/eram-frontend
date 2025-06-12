@@ -9,7 +9,7 @@ import {
 import { useDispatch } from "react-redux";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useSnackbar } from "notistack";
-import { useLogoutSuperAdminMutation } from "../Slices/SuperAdmin/SuperAdminAPIs";
+import { useLogoutSuperAdminMutation } from "../Slices/SuperAdmin/SuperAdminAPIs.js";
 import { userLogout } from "../Slices/Users/UserSlice";
 
 const { Sider } = Layout;
